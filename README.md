@@ -2,10 +2,10 @@
 
 <a href="http://junit.org/junit5/"><img src="http://junit.org/junit5/assets/img/junit5-logo.png" alt="JUnit5" width=148 /></a>
 
-A repository to store all examples related to a JUnit5 tech talk.
+## A repository to store all examples related to a JUnit5 tech talk.
 
-This code and talk is based  on JUnit 5.0.0-M2 released on Jul 23 2016.
+This code and talk is based  on **JUnit 5.0.0-M2** released on Jul 23 2016.
 
-Use with IntelliJ Platform 2016.2 (as a minimum) for JUnit5 support.
+Use with **IntelliJ Platform 2016.2** (or higher) for JUnit5 support.
 
-Otherwise please do some further reading on how to run the tests on <http://junit.org/junit5/docs/current/user-guide/#running-tests>
+Otherwise please do some further reading on how to run the tests [here](http://junit.org/junit5/docs/current/user-guide/#running-tests)
