@@ -5,9 +5,7 @@ import org.junit.jupiter.api.*;
 
 import java.util.logging.Logger;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SimpleClassTest {
     final static private Logger LOG = Logger.getLogger(SimpleClassTest.class.getSimpleName());
@@ -48,5 +46,16 @@ public class SimpleClassTest {
     @DisplayName("Must return null")
     void testReturnsNull() {
         assertNull(classUnderTest.returnsNull(), "This method should return null");
+    }
+
+    @Test
+    @Disabled("This will fail!")
+    void fails() {
+        assertNull(classUnderTest.returnsFalse());
+    }
+
+    @Test
+    void assertsEquality() {
+        assertEquals(true, classUnderTest.returnsTrue(), () -> "Should " + " be " + Boolean.toString(classUnderTest.returnsTrue()));
     }
 }
