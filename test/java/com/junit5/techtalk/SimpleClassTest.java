@@ -1,4 +1,4 @@
-package junit5.techtalk;
+package com.junit5.techtalk;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
